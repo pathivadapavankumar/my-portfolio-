@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathivada Pavan Kumar | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--accent);
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            margin-bottom: 1rem;
+            padding-bottom: 0.25rem;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+
+        .card-subtitle {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .card-date {
+            color: var(--accent);
+            font-size: 0.85rem;
+            white-space: nowrap;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+            color: var(--text-muted);
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Pathivada Pavan Kumar</h1>
+            <div class="contact-info">
+                <span>📧 <a href="mailto:pathivadapavankumar43@gmail.com">pathivadapavankumar43@gmail.com</a></span>
+                <span>🔗 <a href="https://www.linkedin.com/in/pathivada-pavan-kumar-14090a321" target="_blank">LinkedIn Profile</a></span>
+                <span>📞 7799625509</span>
+                <span>📍 India</span>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary</h2>
+            <p style="color: var(--text-muted);">
+                AI & Data Science undergraduate with hands-on experience in <strong>Python, React, machine learning, and generative AI</strong>, focused on building practical AI-driven applications.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">NumPy</span>
+                <span class="skill-tag">Visual Studio Code</span>
+                <span class="skill-tag">Communication</span>
+                <span class="skill-tag">Teamwork</span>
+                <span class="skill-tag">Adaptability</span>
+                <span class="skill-tag">Leadership</span>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">AgriVision AI</div>
+                        <div class="card-subtitle">Tech Stack: React, Express.js, Firebase, Gemini API</div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Developed an AI-powered smart agriculture platform that provides crop disease detection, AI-based farming guidance, weather insights, and soil analysis.</li>
+                    <li>Built an interactive web application using React, Express.js, Firebase, and Gemini API to deliver personalized recommendations and improve farming decisions.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section>
+            <h2>Work Experience</h2>
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Artificial Intelligence and Cyber Security</div>
+                        <div class="card-subtitle">Pixel Wind</div>
+                    </div>
+                    <div class="card-date">2025 - 2025</div>
+                </div>
+                <ul>
+                    <li>Completed a 4-week virtual internship focused on Artificial Intelligence and cybersecurity.</li>
+                    <li>Worked with libraries such as NumPy, Pandas, Scikit-learn, and TensorFlow for basic analysis and model building.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Bachelor of Artificial Intelligence and Data Science</div>
+                        <div class="card-subtitle">Satya Institute of Technology and Management</div>
+                    </div>
+                    <div class="card-date">2023 - 2027 | Vizianagaram</div>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">GPA: 7.06</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Board of Intermediate in MPC</div>
+                        <div class="card-subtitle">Sri Chaitanya Junior College</div>
+                    </div>
+                    <div class="card-date">2021 - 2023 | Marikavalasa</div>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">GPA: 8.26</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Board of Secondary Education</div>
+                        <div class="card-subtitle">ZP High School</div>
+                    </div>
+                    <div class="card-date">2020 - 2021 | Pusapatirega</div>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">GPA: 8.7</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© Pathivada Pavan Kumar | Built with HTML & CSS</p>
+        </footer>
+    </div>
+
+</body>
+</html>
